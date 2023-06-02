@@ -29,6 +29,19 @@
         }
     }
 </script>
+  
+  <configuration xmlns:patch="https://awesomeonlineworld.github.io/link_anotherlink/">
+  <sitecore>
+    <linkManager>
+      <providers>
+        <add name="sitecore">
+          <patch:attribute name="useDisplayName">true</patch:attribute>
+        </add>
+      </providers>
+    </linkManager>
+  </sitecore>
+</configuration>
+  
   <!--
   <a href="https://awesomeonlineworld.github.io/link_anotherlink/" 
   onMouseover="JavaScript:window.status='https://cutt.ly/3wqEqU6Q'; return true" 
